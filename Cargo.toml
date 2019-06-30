@@ -6,3 +6,5 @@ edition = "2018"
 
 [dependencies]
 url = "1.7.2"
+uriparse = "0.6.1"
+hyper = "0.12.31"
