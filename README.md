@@ -19,4 +19,4 @@ cargo +nightly run --example hyper-uri
 * hyper-uri: `request-target` as defined in [IETF HTTP 1.1 Specification - RFC7230 Section 5.3](https://tools.ietf.org/html/rfc7230#section-5.3)
   * `cargo add hyper`
   * https://docs.rs/hyper/0.12.8/hyper/struct.Uri.html
-  https://github.com/hyperium/hyper
+  * https://github.com/hyperium/hyper
