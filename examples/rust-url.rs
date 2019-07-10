@@ -2,6 +2,11 @@ use url::{Url, Host, ParseError};
 
 fn main() {
 
+  let uri = "https://github.com/rust-lang/rust?baz".parse::<Url>().unwrap();
+  assert_eq!(uri.path(), "/rust-lang/rust");
+  assert_eq!(uri.query(), Some("baz"));
+  // assert_eq!(uri.host(), None);
+
 let issue_list_url = Url::parse(
     "https://github.com/rust-lang/rust/issues?labels=E-easy&state=open"
 ).unwrap();
